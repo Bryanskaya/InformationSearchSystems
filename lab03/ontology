@@ -1,434 +1,1182 @@
-[ {
-  "@id" : "_:genid1",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
-  "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#входит_в_сегмент"
-  } ],
-  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
-    "@id" : "http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#Селектив"
-  } ]
-}, {
-  "@id" : "_:genid2",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
-  "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#представлен_состоянием"
-  } ],
-  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
-    "@id" : "http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#Масло"
-  } ]
-}, {
-  "@id" : "_:genid3",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
-  "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#входит_в_сегмент"
-  } ],
-  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
-    "@id" : "http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#Масс-маркет"
-  } ]
-}, {
-  "@id" : "_:genid4",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
-  "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#представлен_состоянием"
-  } ],
-  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
-    "@id" : "http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#Жидкость"
-  } ]
-}, {
-  "@id" : "_:genid5",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
-  "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#распространяются_в_виде"
-  } ],
-  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
-    "@id" : "http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#Флакон"
-  } ]
-}, {
-  "@id" : "_:genid6",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
-  "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#представлен_состоянием"
-  } ],
-  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
-    "@id" : "http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#Жидкость"
-  } ]
-}, {
-  "@id" : "_:genid7",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
-  "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#распространяются_в_виде"
-  } ],
-  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
-    "@id" : "http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#Флакон"
-  } ]
-}, {
-  "@id" : "_:genid8",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
-  "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#представлен_состоянием"
-  } ],
-  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
-    "@id" : "http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#Жидкость"
-  } ]
-}, {
-  "@id" : "http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ]
-}, {
-  "@id" : "http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#Musk_Kashmir",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#Аттар" ],
-  "http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#имеет_стойкость" : [ {
-    "@id" : "http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#до_8_часов"
-  } ],
-  "http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#подходит" : [ {
-    "@id" : "http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#женщина"
-  }, {
-    "@id" : "http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#мужчина"
-  } ]
-}, {
-  "@id" : "http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#THE_HARMONIST_desired_earth",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#Духи" ],
-  "http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#имеет_стойкость" : [ {
-    "@id" : "http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#до_12_часов"
-  } ]
-}, {
-  "@id" : "http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#The_Queen_of_Sheba",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#Аттар" ],
-  "http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#имеет_стойкость" : [ {
-    "@id" : "http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#до_8_часов"
-  } ],
-  "http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#подходит" : [ {
-    "@id" : "http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#женщина"
-  } ]
-}, {
-  "@id" : "http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#ZIELINSKI_&_ROZEN_apple_&_lotus",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#Духи" ],
-  "http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#имеет_стойкость" : [ {
-    "@id" : "http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#до_12_часов"
-  } ]
-}, {
-  "@id" : "http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#Аккорд",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
-}, {
-  "@id" : "http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#Аттар",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#Тип"
-  }, {
-    "@id" : "_:genid1"
-  }, {
-    "@id" : "_:genid2"
-  } ]
-}, {
-  "@id" : "http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#Блоттер",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#Оборудование"
-  } ]
-}, {
-  "@id" : "http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#Верхние_ноты",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#Ноты"
-  } ]
-}, {
-  "@id" : "http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#Восточные",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#Группа"
-  } ]
-}, {
-  "@id" : "http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#Группа",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
-}, {
-  "@id" : "http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#Древесные",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#Группа"
-  } ]
-}, {
-  "@id" : "http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#Духи",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#Тип"
-  } ]
-}, {
-  "@id" : "http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#Жидкость",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#Формат"
-  } ]
-}, {
-  "@id" : "http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#Компот",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#Тип"
-  }, {
-    "@id" : "_:genid3"
-  }, {
-    "@id" : "_:genid4"
-  }, {
-    "@id" : "_:genid5"
-  } ],
-  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
-    "@id" : "http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#Освежающая_вода"
-  } ]
-}, {
-  "@id" : "http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#Конкрет",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#Формат"
-  } ]
-}, {
-  "@id" : "http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#Люкс",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#Сегмент"
-  } ]
-}, {
-  "@id" : "http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#Масло",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#Формат"
-  } ]
-}, {
-  "@id" : "http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#Масс-маркет",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#Сегмент"
-  } ]
-}, {
-  "@id" : "http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#Ниша",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#Сегмент"
-  } ]
-}, {
-  "@id" : "http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#Нос",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#Профессия"
-  } ],
-  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
-    "@id" : "http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#Парфюмер"
-  } ]
-}, {
-  "@id" : "http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#Ноты",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#Аккорд"
-  } ]
-}, {
-  "@id" : "http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#Ноты_сердца",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#Ноты"
-  } ]
-}, {
-  "@id" : "http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#Оборудование",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
-}, {
-  "@id" : "http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#Одеколон",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#Тип"
-  }, {
-    "@id" : "_:genid6"
-  }, {
-    "@id" : "_:genid7"
-  } ]
-}, {
-  "@id" : "http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#Освежающая_вода",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#Тип"
-  } ]
-}, {
-  "@id" : "http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#Парфюм",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#Тип"
-  } ]
-}, {
-  "@id" : "http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#Парфюмер",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#Профессия"
-  } ]
-}, {
-  "@id" : "http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#Потребитель",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
-}, {
-  "@id" : "http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#Профессия",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
-}, {
-  "@id" : "http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#Распив",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#Способ"
-  } ]
-}, {
-  "@id" : "http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#Рефилл",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#Способ"
-  } ]
-}, {
-  "@id" : "http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#Свежие",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#Группа"
-  } ]
-}, {
-  "@id" : "http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#Сегмент",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
-}, {
-  "@id" : "http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#Селектив",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#Люкс"
-  } ]
-}, {
-  "@id" : "http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#Способ",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
-}, {
-  "@id" : "http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#Стойкость",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
-}, {
-  "@id" : "http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#Тип",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
-}, {
-  "@id" : "http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#Туалетная_вода",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#Тип"
-  }, {
-    "@id" : "_:genid8"
-  } ]
-}, {
-  "@id" : "http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#Флакон",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#Способ"
-  } ]
-}, {
-  "@id" : "http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#Формат",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
-}, {
-  "@id" : "http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#Цветочные",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#Группа"
-  } ]
-}, {
-  "@id" : "http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#Шлейфовые_ноты",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#Ноты"
-  } ]
-}, {
-  "@id" : "http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#входит_в_сегмент",
-  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty", "http://www.w3.org/2002/07/owl#InverseFunctionalProperty" ],
-  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#Тип"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#Сегмент"
-  } ]
-}, {
-  "@id" : "http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#до_10_минут",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#Стойкость" ]
-}, {
-  "@id" : "http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#до_12_часов",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#Стойкость" ]
-}, {
-  "@id" : "http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#до_5_часов",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#Стойкость" ]
-}, {
-  "@id" : "http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#до_8_часов",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#Стойкость" ]
-}, {
-  "@id" : "http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#женщина",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#Потребитель" ]
-}, {
-  "@id" : "http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#знает",
-  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
-  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#Нос"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#Аккорд"
-  }, {
-    "@id" : "http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#Группа"
-  }, {
-    "@id" : "http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#Сегмент"
-  }, {
-    "@id" : "http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#Стойкость"
-  }, {
-    "@id" : "http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#Тип"
-  }, {
-    "@id" : "http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#Формат"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
-    "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
-  } ]
-}, {
-  "@id" : "http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#имеет_стойкость",
-  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
-  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#Тип"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#Стойкость"
-  } ]
-}, {
-  "@id" : "http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#использует",
-  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
-  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#Нос"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#Блоттер"
-  } ]
-}, {
-  "@id" : "http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#мужчина",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#Потребитель" ]
-}, {
-  "@id" : "http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#ориентируется",
-  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
-  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
-    "@id" : "http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#знает"
-  } ]
-}, {
-  "@id" : "http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#подходит",
-  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
-  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#Тип"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#Потребитель"
-  } ]
-}, {
-  "@id" : "http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#представлен_состоянием",
-  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty", "http://www.w3.org/2002/07/owl#InverseFunctionalProperty" ],
-  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#Тип"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#Формат"
-  } ]
-}, {
-  "@id" : "http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#различает",
-  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
-  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
-    "@id" : "http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#знает"
-  } ]
-}, {
-  "@id" : "http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#распространяются_в_виде",
-  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
-  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#Тип"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#Способ"
-  } ]
-} ]
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#"
+     xml:base="http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology"
+     xmlns:ont="http://www.co-ode.org/ontologies/ont.owl#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:foaf="http://xmlns.com/foaf/0.1/"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:schema="http://schema.org/"
+     xmlns:ontology="http://dbpedia.org/ontology/"
+     xmlns:wgs84_pos="http://www.w3.org/2003/01/geo/wgs84_pos#"
+     xmlns:parfume-ontology="http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#выпускает -->
+
+    <owl:ObjectProperty rdf:about="http://www.co-ode.org/ontologies/ont.owl#выпускает">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#SymmetricProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#Парфюмерный_дом"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#Тип"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#дополняют -->
+
+    <owl:ObjectProperty rdf:about="http://www.co-ode.org/ontologies/ont.owl#дополняют">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#SymmetricProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#Аккорд"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#Ноты"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#имеют_концентрацию -->
+
+    <owl:ObjectProperty rdf:about="http://www.co-ode.org/ontologies/ont.owl#имеют_концентрацию"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#входит_в_сегмент -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#входит_в_сегмент">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#Тип"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#Сегмент"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#знает -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#знает">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#Нос"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#Аккорд"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#Группа"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#Парфюмерный_дом"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#Сегмент"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#Стойкость"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#Тип"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#Формат"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#имеет_стойкость -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#имеет_стойкость">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#Тип"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#Стойкость"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#использует -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#использует">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#Нос"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#Блоттер"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#ориентируется -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#ориентируется">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#знает"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#переходить_в -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#переходить_в">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#Ноты"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#Ноты"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#подходит -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#подходит">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#Тип"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#Потребитель"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#представлен_состоянием -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#представлен_состоянием">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#Тип"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#Формат"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#различает -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#различает">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#знает"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#распространяются_в_виде -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#распространяются_в_виде">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#Тип"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#Способ"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://dbpedia.org/ontology/founder -->
+
+    <owl:DatatypeProperty rdf:about="http://dbpedia.org/ontology/founder"/>
+    
+
+
+    <!-- http://dbpedia.org/ontology/foundingYear -->
+
+    <owl:DatatypeProperty rdf:about="http://dbpedia.org/ontology/foundingYear"/>
+    
+
+
+    <!-- http://schema.org/hasDensity -->
+
+    <owl:DatatypeProperty rdf:about="http://schema.org/hasDensity"/>
+    
+
+
+    <!-- http://schema.org/hasIngredient -->
+
+    <owl:DatatypeProperty rdf:about="http://schema.org/hasIngredient"/>
+    
+
+
+    <!-- http://schema.org/hasMaterial -->
+
+    <owl:DatatypeProperty rdf:about="http://schema.org/hasMaterial"/>
+    
+
+
+    <!-- http://schema.org/img -->
+
+    <owl:DatatypeProperty rdf:about="http://schema.org/img"/>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#foaf.firstName -->
+
+    <owl:DatatypeProperty rdf:about="http://www.co-ode.org/ontologies/ont.owl#foaf.firstName"/>
+    
+
+
+    <!-- http://www.w3.org/2003/01/geo/wgs84_pos#location -->
+
+    <owl:DatatypeProperty rdf:about="http://www.w3.org/2003/01/geo/wgs84_pos#location"/>
+    
+
+
+    <!-- http://xmlns.com/foaf/0.1/birthYear -->
+
+    <owl:DatatypeProperty rdf:about="http://xmlns.com/foaf/0.1/birthYear"/>
+    
+
+
+    <!-- http://xmlns.com/foaf/0.1/gender -->
+
+    <owl:DatatypeProperty rdf:about="http://xmlns.com/foaf/0.1/gender"/>
+    
+
+
+    <!-- http://xmlns.com/foaf/0.1/img -->
+
+    <owl:DatatypeProperty rdf:about="http://xmlns.com/foaf/0.1/img"/>
+    
+
+
+    <!-- http://xmlns.com/foaf/0.1/lastname -->
+
+    <owl:DatatypeProperty rdf:about="http://xmlns.com/foaf/0.1/lastname"/>
+    
+
+
+    <!-- http://xmlns.com/foaf/0.1/mbox -->
+
+    <owl:DatatypeProperty rdf:about="http://xmlns.com/foaf/0.1/mbox"/>
+    
+
+
+    <!-- http://xmlns.com/foaf/0.1/work -->
+
+    <owl:DatatypeProperty rdf:about="http://xmlns.com/foaf/0.1/work"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#Аккорд -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#Аккорд"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#Аттар -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#Аттар">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#Тип"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#входит_в_сегмент"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#Селектив"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#представлен_состоянием"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#Масло"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#Базовые_ноты -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#Базовые_ноты">
+        <owl:equivalentClass rdf:resource="http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#Шлейфовые_ноты"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#Ноты"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#Блоттер -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#Блоттер">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#Оборудование"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#Верхние_ноты -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#Верхние_ноты">
+        <owl:equivalentClass rdf:resource="http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#Головные"/>
+        <owl:equivalentClass rdf:resource="http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#Открывающиеся_ноты"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#Ноты"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#переходить_в"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#Ноты_сердца"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#имеет_стойкость"/>
+                <owl:hasValue rdf:resource="http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#до_15_минут"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#Восточные -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#Восточные">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#Группа"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#Головные -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#Головные">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#Ноты"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#Группа -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#Группа"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#Древесные -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#Древесные">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#Группа"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#Духи -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#Духи">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#Тип"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#представлен_состоянием"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#Жидкость"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.co-ode.org/ontologies/ont.owl#имеют_концентрацию"/>
+                <owl:hasValue rdf:resource="http://www.co-ode.org/ontologies/ont.owl#до_30_процентов"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#Жидкость -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#Жидкость">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#Формат"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#Компот -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#Компот">
+        <owl:equivalentClass rdf:resource="http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#Освежающая_вода"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#Тип"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#входит_в_сегмент"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#Масс-маркет"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#представлен_состоянием"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#Жидкость"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#распространяются_в_виде"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#Флакон"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#Конкрет -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#Конкрет">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#Формат"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#Люкс -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#Люкс">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#Сегмент"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#Масло -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#Масло">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#Формат"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#Масс-маркет -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#Масс-маркет">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#Сегмент"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#Ниша -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#Ниша">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#Сегмент"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#Нос -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#Нос">
+        <owl:equivalentClass rdf:resource="http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#Парфюмер"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#Профессия"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#Ноты -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#Ноты"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#Ноты_сердца -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#Ноты_сердца">
+        <owl:equivalentClass rdf:resource="http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#Средние_ноты"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#Ноты"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#переходить_в"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#Шлейфовые_ноты"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#имеет_стойкость"/>
+                <owl:hasValue rdf:resource="http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#несколько_часов"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#Оборудование -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#Оборудование"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#Одеколон -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#Одеколон">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#Тип"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#представлен_состоянием"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#Жидкость"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#распространяются_в_виде"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#Флакон"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.co-ode.org/ontologies/ont.owl#имеют_концентрацию"/>
+                <owl:hasValue rdf:resource="http://www.co-ode.org/ontologies/ont.owl#до_3_процентов"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#Освежающая_вода -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#Освежающая_вода">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#Тип"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.co-ode.org/ontologies/ont.owl#имеют_концентрацию"/>
+                <owl:hasValue rdf:resource="http://www.co-ode.org/ontologies/ont.owl#до_1_процента"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#Открывающиеся_ноты -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#Открывающиеся_ноты">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#Ноты"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#Парфюм -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#Парфюм">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#Тип"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.co-ode.org/ontologies/ont.owl#имеют_концентрацию"/>
+                <owl:hasValue rdf:resource="http://www.co-ode.org/ontologies/ont.owl#до_20_процентов"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#Парфюмер -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#Парфюмер">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#Профессия"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#Парфюмерный_дом -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#Парфюмерный_дом"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#Потребитель -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#Потребитель"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#Профессия -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#Профессия"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#Распив -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#Распив">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#Способ"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#Рефилл -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#Рефилл">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#Способ"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#Свежие -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#Свежие">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#Группа"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#Сегмент -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#Сегмент"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#Селектив -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#Селектив">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#Люкс"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#Способ -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#Способ"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#Средние_ноты -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#Средние_ноты">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#Ноты"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#Стойкость -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#Стойкость"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#Тип -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#Тип"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#Туалетная_вода -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#Туалетная_вода">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#Тип"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#представлен_состоянием"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#Жидкость"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.co-ode.org/ontologies/ont.owl#имеют_концентрацию"/>
+                <owl:hasValue rdf:resource="http://www.co-ode.org/ontologies/ont.owl#до_10_процентов"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#Флакон -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#Флакон">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#Способ"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#Формат -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#Формат"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#Цветочные -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#Цветочные">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#Группа"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#Шлейфовые_ноты -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#Шлейфовые_ноты">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#Ноты"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#имеет_стойкость"/>
+                <owl:hasValue rdf:resource="http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#от_нескольких_часов_до_нескольких_дней"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Alberto_Morillas -->
+
+    <owl:NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#Alberto_Morillas">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#Нос"/>
+        <ont:foaf.firstName>Alberto</ont:foaf.firstName>
+        <foaf:birthYear rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1950</foaf:birthYear>
+        <foaf:gender>мужчина</foaf:gender>
+        <foaf:img>https://randewoo.ru/uploads/unresourced/custom/content_94907e24bb811d0fdf241824f4a6e51a.png</foaf:img>
+        <foaf:lastname>Morillas</foaf:lastname>
+        <foaf:work>швейцарская компания Firmenich</foaf:work>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Givenchy -->
+
+    <owl:NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#Givenchy">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#Парфюмерный_дом"/>
+        <ontology:founder>Юбер де Живанши</ontology:founder>
+        <ontology:foundingYear rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">1952-01-01T00:00:00</ontology:foundingYear>
+        <wgs84_pos:location>Франция, Париж</wgs84_pos:location>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Guerlain -->
+
+    <owl:NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#Guerlain">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#Парфюмерный_дом"/>
+        <ontology:founder>Пьер Франсуа Паскаль Герлен</ontology:founder>
+        <ontology:foundingYear rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">1828-01-01T00:00:00</ontology:foundingYear>
+        <wgs84_pos:location>Франция, Париж</wgs84_pos:location>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Houbigant -->
+
+    <owl:NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#Houbigant">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#Парфюмерный_дом"/>
+        <ontology:founder>Жан-Франсуа Убиган</ontology:founder>
+        <ontology:foundingYear rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">1775-01-01T00:00:00</ontology:foundingYear>
+        <wgs84_pos:location>Франция, Париж</wgs84_pos:location>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#амбреиновый_аккорд -->
+
+    <owl:NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#амбреиновый_аккорд">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#Аккорд"/>
+        <schema:hasIngredient>бергамот</schema:hasIngredient>
+        <schema:hasIngredient>ваниль</schema:hasIngredient>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#амбровый_аккорд -->
+
+    <owl:NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#амбровый_аккорд">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#Аккорд"/>
+        <schema:hasIngredient>ваниль</schema:hasIngredient>
+        <schema:hasIngredient>фрукты</schema:hasIngredient>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#до_10_процентов -->
+
+    <owl:NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#до_10_процентов"/>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#до_1_процента -->
+
+    <owl:NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#до_1_процента"/>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#до_20_процентов -->
+
+    <owl:NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#до_20_процентов"/>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#до_30_процентов -->
+
+    <owl:NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#до_30_процентов"/>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#до_3_процентов -->
+
+    <owl:NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#до_3_процентов"/>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#лимон -->
+
+    <owl:NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#лимон">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#Верхние_ноты"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#фужеровый_аккорд -->
+
+    <owl:NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#фужеровый_аккорд">
+        <schema:hasIngredient>мох</schema:hasIngredient>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#шипровый_аккорд -->
+
+    <owl:NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#шипровый_аккорд">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#Аккорд"/>
+        <schema:hasIngredient>бергамот</schema:hasIngredient>
+        <schema:hasIngredient>жасмин</schema:hasIngredient>
+        <schema:hasIngredient>мох</schema:hasIngredient>
+        <schema:hasIngredient>роза</schema:hasIngredient>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#вся_бумага/магазин_дизайнерской_бумаги -->
+
+    <owl:NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#вся_бумага/магазин_дизайнерской_бумаги">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#Блоттер"/>
+        <schema:hasDensity>80 г/м2</schema:hasDensity>
+        <schema:hasMaterial>бумага</schema:hasMaterial>
+        <schema:img>https://all-paper.ru/thumb/2/rCoHEnGeCa0bQc05gnB0cw/800r800/d/blottery1.jpg</schema:img>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#Musk_Kashmir -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#Musk_Kashmir">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#Аттар"/>
+        <имеет_стойкость rdf:resource="http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#до_8_часов"/>
+        <подходит rdf:resource="http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#женщина"/>
+        <подходит rdf:resource="http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#мужчина"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#THE_HARMONIST_desired_earth -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#THE_HARMONIST_desired_earth">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#Духи"/>
+        <имеет_стойкость rdf:resource="http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#до_12_часов"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#The_Queen_of_Sheba -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#The_Queen_of_Sheba">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#Аттар"/>
+        <имеет_стойкость rdf:resource="http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#до_8_часов"/>
+        <подходит rdf:resource="http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#женщина"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#Thé_des_Vignes -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#Thé_des_Vignes">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#Освежающая_вода"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#алкоголь -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#алкоголь">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#Шлейфовые_ноты"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#бергамот -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#бергамот">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#Свежие"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#ваниль -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#ваниль">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#Восточные"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#Шлейфовые_ноты"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#вишня -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#вишня">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#Верхние_ноты"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#до_10_минут -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#до_10_минут">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#Стойкость"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#до_12_часов -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#до_12_часов">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#Стойкость"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#до_15_минут -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#до_15_минут">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#Стойкость"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#до_5_часов -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#до_5_часов">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#Стойкость"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#до_8_часов -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#до_8_часов">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#Стойкость"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#дуб -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#дуб">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#Древесные"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#Шлейфовые_ноты"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#дым -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#дым">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#Шлейфовые_ноты"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#жасмин -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#жасмин">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#Ноты_сердца"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#Свежие"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#Цветочные"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#женщина -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#женщина">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#Потребитель"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#ирис -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#ирис">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#Ноты_сердца"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#Цветочные"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#кардамон -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#кардамон">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#Ноты_сердца"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#кедр -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#кедр">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#Восточные"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#Шлейфовые_ноты"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#кожа -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#кожа">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#Шлейфовые_ноты"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#корица -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#корица">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#Ноты_сердца"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#манго -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#манго">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#Верхние_ноты"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#мох -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#мох">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#Древесные"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#мужчина -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#мужчина">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#Потребитель"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#мята -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#мята">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#Верхние_ноты"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#несколько_часов -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#несколько_часов">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#Стойкость"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#от_нескольких_часов_до_нескольких_дней -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#от_нескольких_часов_до_нескольких_дней">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#Стойкость"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#перец -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#перец">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#Верхние_ноты"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#персик -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#персик">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#Верхние_ноты"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#пион -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#пион">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#Ноты_сердца"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#роза -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#роза">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#Ноты_сердца"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#Свежие"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#Цветочные"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#розмарин -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#розмарин">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#Верхние_ноты"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#сандал -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#сандал">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#Восточные"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#Древесные"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#Шлейфовые_ноты"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#свежие_морские -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#свежие_морские">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#Верхние_ноты"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#цитрусовые -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#цитрусовые">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#Верхние_ноты"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#шалфей -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#шалфей">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#Восточные"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#ZIELINSKI_&amp;_ROZEN_apple_&amp;_lotus -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#ZIELINSKI_&amp;_ROZEN_apple_&amp;_lotus">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#Духи"/>
+        <имеет_стойкость rdf:resource="http://www.semanticweb.org/ekaterina.bryanskaya/ontologies/2024/3/parfume-ontology#до_12_часов"/>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.26.2023-07-17T20:34:13Z) https://github.com/owlcs/owlapi -->
+
